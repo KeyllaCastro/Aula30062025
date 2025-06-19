@@ -1,0 +1,57 @@
+.container-principal {
+    display: flex;                
+    justify-content: center;     
+    align-items: center;          
+    height: 100vh;               /* Corrigi para ocupar a altura total da tela */
+    background-color: #fcd9d9;    
+}
+
+.container-login {
+    background-color: white;     /* fundo branco */
+    padding: 30px 25px;          /* espaçamento interno */
+    border-radius: 10px;         /* bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* sombra suave */
+    width: 350px;                /* largura fixa, parecida com cadastro */
+    box-sizing: border-box;      /* para garantir o padding */
+}
+
+.container-login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;                 
+    padding: 10px;               
+    margin: 10px 0;              
+    border: 1px solid #ccc;      
+    border-radius: 5px;          
+    font-size: 14px;             
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;                 
+    padding: 10px;               
+    background-color: #f11544;   
+    color: white;                
+    border: none;                
+    border-radius: 5px;          
+    font-size: 16px;             
+    cursor: pointer;             
+}
+
+input[type="submit"]:hover {
+    background-color: #c21035;   /* um vermelho mais escuro no hover */
+}
+
+.link-centro {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link-centro a {
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+}
